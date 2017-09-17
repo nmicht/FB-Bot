@@ -1,0 +1,6 @@
+{
+    "appSecret": "5fa4b900f755f6f87ca6bf74720cb2e2",
+    "pageAccessToken": "EAAE88dhpUHYBACwRosmVM5ANHvzTIlHZCVl8ZApZCfDrCn963hLbDJPbgut1KxrDnyTkNO3PrujgPm1pWdgwdvqUf5dyFZAWQ3ZB8qb4EYvDuxeCiqp7pT50ZCPObvilZCsy1Mw4caNljrz0jihnLwu4JB4se3bNgD3AEdttVPJWQZDZD",
+    "validationToken": "RandomString",
+    "serverURL": "[get the subdomain from your ngrok console (leave out 'https://')].ngrok.io"
+}

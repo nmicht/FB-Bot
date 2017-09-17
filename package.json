@@ -1,0 +1,24 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Sample Messenger Bot for the Facebook Platform Train-the-Trainer events",
+  "main": "app.js",
+  "start-script-comment": "adding these two flags (--inspect --debug-brk) will make the node app debuggable using chrome dev tools",
+  "debug-script-comment": "this script is linked to a run configuration in VSCode (see .vscode/launch.json) to make the node app debuggable in the IDE",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node --nolazy --debug-brk=5858 app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+
+  }
+}
